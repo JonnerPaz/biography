@@ -226,4 +226,47 @@ footer {
   font-size: 1.4rem;
 }
 
+@media (max-width: 768px) {
+  .image-title {
+    font-size: 3.5rem;
+  }
+
+  .image-profile {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .sidebar {
+    flex-basis: auto;
+    padding: 2rem;
+  }
+
+  /* Mobile Sidebar */
+  .sidebar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .sidebar ul li {
+    border-left: none;
+    border-bottom: 0.3rem solid transparent;
+  }
+
+  .sidebar ul li:hover {
+    transform: translateY(-0.2rem);
+    border-left-color: transparent;
+    border-bottom-color: var(--color-primary);
+  }
+
+  .info-container {
+    flex-basis: auto;
+    padding: 3rem 2rem;
+  }
 }
