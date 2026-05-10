@@ -1,9 +1,25 @@
 :root {
-  --bg-color: #000000;
-  --color-fondo: #000000;
-  --color-text--primary: #112a46;
-  --color-primary: #7ab4f3;
-  --color-idle: #6c6f73;
+  /* White color palette (Current) */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --bg-body: #f8fafc; /* main background */
+  --bg-card: #ffffff; /* for containers (cards) */
+
+  --text-main: #334155;
+  --text-heading: #0f172a;
+  --text-muted: #64748b; /* Secondary text */
+
+  /* Futuro Modo Oscuro (Ejemplo de cómo se vería, actualmente no se aplica)
+  --bg-body-dark: #0f172a;
+  --bg-card-dark: #1e293b;
+  --text-main-dark: #cbd5e1;
+  ... 
+  */
+
+  --radius-card: 1.2rem;
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 * {
